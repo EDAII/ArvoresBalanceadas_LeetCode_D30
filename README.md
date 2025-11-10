@@ -1,36 +1,62 @@
-# Repositório Template
-Repositório de Template para os projetos da disciplina 
-```
-Nome do Repositório (Apague este tópico)
-  O nome do repositório deve seguir o padrão <TemaProjeto>_<Nome Projeto>.
-  O nome do projeto deve representar o que foi implementado no mesmo (Ex:
-  Game xyz, Implementações Otimizadas de Algoritmos, Aplicativo xpto)
-
-Os temas de projeto são:  
- - Busca - Algoritmos de busca  
- - Ord_quad - Algoritmos de ordenação O(n²)  
- - Ord_nlogn - Algoritmos de ordenação O(n*log(n))  
- - Arv - Algoritmos de manipulação de Árvores  
- - Grafo - Algoritmos de manipulação de Grafos  
- 
- Ex: Busca_ConcorrenteDaGoogle
-```
 ## Alunos  
 | Matrícula | Nome |  
 |-----------------------|---------------------|  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
+| 22/1007958 | Cláudio Henrique dos Santos Carvalho |  
+| 22/1022462 | Arthur da Silveira Sousa |
+
 ## Descrição do projeto
-Aqui você deve dizer o objetivo deste projeto e o que realmente foi feito neste repositório.
+
+Questões resolvidas do LeetCode sobre Árvores Balanceadas da disciplina de Estrutura de Dados 2.
+
+### Questões
+
+|Questão | Dificuldade | Autor|
+| -- | -- | -- |
+| [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/description)| Difícil | Cláudio|
+| [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii)| Difícil | Cláudio|
+| [354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description)| Difícil | Cláudio|
+| [164. Maximum Gap ](https://leetcode.com/problems/maximum-gap/)| Médio | Arthur|
+| [2179. Count Good Triplets in an Array ](https://leetcode.com/problems/count-good-triplets-in-an-array/description/)| Difícil | Arthur|
+
+
 ## Guia de instalação
-Aqui devem estar descritas as dependências do projeto (versões de linguagens e ferramentas) e as instruções necessárias para executar o projeto. 
-### Dependências do projeto
-### Como executar o projeto
+Basta executar os scripts python na área específica de cada exercício que estão na pasta de questões de cada aluno.
+
 ## Capturas de tela
-Neste tópico você deve adicionar imagens do funcionamento do projeto.  
- - As imagens devem ser salvas no repositório.
- - Imagens salvas em domínios eternos tendem a ficar indisponíveis e devem ser evitadas.   
+
+#### Cláudio
+
+### [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/description)
+
+![skyline problem](/QuestoesClaudio/imgs/skyline-problem.png)
+
+### [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii)
+
+![contais duplicate bucket](/QuestoesClaudio/imgs/duplicate-bucket-img.png)
+
+### [354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description)
+
+![img russian doll](/QuestoesClaudio/imgs/russian-doll.png)
+
+#### Arthur
+
+### [164. Maximum Gap](https://leetcode.com/problems/maximum-gap/)
+
+![questão 1](assets/image.png)
+
+### [2179. Count Good Triplets in an Array ](https://leetcode.com/problems/count-good-triplets-in-an-array/description/)
+
+![questão 2](assets/image-1.png)
+
+## Gravação
+
+[Link do vídeo aqui - Cláudio Henrique](https://www.youtube.com/watch?v=8wqjbAY3JzM)
+
+[Link do vídeo aqui - Arthur Sousa](https://youtu.be/qT75qewbpWc)
+
+
 ## Conclusões
-Aqui você diz se o algoritmo utilizado foi útil, se tem limitações, etc.
-## Referências
-Caso tenha utilizado algum agoritmo como base, citar o mesmo devidamente para  evitar quaisquer denuncias de plágio.
+
+Cláudio: Utilizei o algoritmo de heap(min e max) na resolução do problema dos prédios, busca binária para o desafio dos envelopes e bucket sort.
+
+Arthur: Utilizei *bucketization* que é baseado no princípio do bucketSort e no outro utilizei FenwickTree para contar os 'menores à esquerda' e 'maiores à direita'.
