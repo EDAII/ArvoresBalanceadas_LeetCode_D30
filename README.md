@@ -50,9 +50,9 @@ Basta executar os scripts python na área específica de cada exercício que est
 
 ## Gravação
 
-[Link do vídeo aqui - Cláudio Henrique](https://www.youtube.com/watch?v=8wqjbAY3JzM)
+[Link do vídeo aqui - Cláudio Henrique](https://www.youtube.com/)
 
-[Link do vídeo aqui - Arthur Sousa](https://youtu.be/qT75qewbpWc)
+[Link do vídeo aqui - Arthur Sousa](https://youtu.be/)
 
 
 ## Conclusões
