@@ -17,7 +17,6 @@ Questões resolvidas do LeetCode sobre Árvores Balanceadas da disciplina de Est
 | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)| Difícil | Arthur|
 | [450. Delete Node in a BST ](https://leetcode.com/problems/delete-node-in-a-bst/description/)| Média | Arthur|
 
-
 ## Guia de instalação
 Basta executar os scripts python na área específica de cada exercício que estão na pasta de questões de cada aluno.
 
@@ -29,11 +28,9 @@ Basta executar os scripts python na área específica de cada exercício que est
 
 ![114. Flatten Binary Tree to Linked List](/QuestoesClaudio/imgs/tree-to-linked-list.png)
 
-
 ### [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
 ![maximum path sum](/QuestoesClaudio/imgs/maximum-sum.png)
-
 
 #### Arthur
 
@@ -49,10 +46,10 @@ Basta executar os scripts python na área específica de cada exercício que est
 
 [Link do vídeo aqui - Cláudio Henrique](https://www.youtube.com/watch?v=PlP_fONOYHM)
 
-[Link do vídeo aqui - Arthur Sousa]()
+[Link do vídeo aqui - Arthur Sousa](https://youtu.be/NdUFAtvhmOo)
 
 ## Conclusões
 
 Cláudio: Usei principalmente recursão DFS, onde no problema da "Soma Máxima", ela rastreou o ganho máximo global versus o ganho contínuo, enquanto no de "Achatar Árvore", a recursão pós-ordem "costurou" as sub-árvores já achatadas(recursão também).
 
-Arthur:
+Arthur: No primeiro exercício, pude representar toda a estrutura de uma árvore em uma string, e depois reconstruí-la exatamente igual. Isso mostrou a importância de entender a ordem de percurso (pré-ordem) e o uso de marcadores para nós nulos. No segundo exercício, entendi como buscar e remover elementos mantendo as regras da BST, analisando diferentes casos (nó sem filhos, com um filho e com dois filhos) e aplicando a lógica de encontrar o menor nó da subárvore direita.
